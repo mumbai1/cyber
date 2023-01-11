@@ -1,0 +1,32 @@
+Aim: Practical on use of Social Engineering Toolkit
+
+1.Log in to Kali Linux as a Virtual Machine.
+2.Go to Applications >Social Engineering Toolkit
+
+passward
+
+yes
+
+1 soccial enginearing attak
+
+2
+3
+2 site cloner
+
+92.168.52.129
+
+www.facebook.com
+
+
+go browser and compose mail
+
+target mail id Example:- 123Ram@gmail.com
+write a text aplly or insert link in tha text
+
+web address - https://www.facebook.com/
+ok
+ it create a replica of facebook website
+
+
+
+

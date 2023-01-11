@@ -1,0 +1,22 @@
+Aim: Practical on enumerating host, port, and service scanning
+
+1. Launch Kali Linux
+2. Select Applications > Information Gathering >nmap
+nmap -sP 192.168.0.0/2
+sudo nmao -sS 192.168.227.129
+
+sudo nmao -sSV-O 192.168.227.129
+
+sudo nmao -sSV-O 192.168.227.129 -oN result.txt
+
+click on home/kali - open folder (Click on Places > Home Folder)
+open place
+kali
+reult.txt
+
+
+
+command 
+cat result.txt
+
+

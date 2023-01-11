@@ -1,0 +1,56 @@
+Aim: Use of open-source intelligence and passive reconnaissance
+
+recon-ng
+a. Discovery module
+marketplace install discovery
+b. Recon module
+marketplace install recon
+c. Importing module
+marketplace install import
+d. Exploitation module
+marketplace install exploitation
+e. Reporting module reporting
+
+
+To create a new workspace
+workspaces list
+
+workspaces create security_breaches
+workspaces list
+
+marketplace install recon/domains-contacts/whois_pocs
+modules load recon/domains-contacts/whois_pocs
+options list
+options set source twitter.com
+options list
+run
+back
+
+marketplace install recon/profiles-profiles/namechk
+modules load recon/profiles-profiles/namechk
+options list
+options set source william Fenech
+options list
+
+run
+back
+marketplace
+marketplace install recon/profiles-profiles/profiler
+modules load recon/profiles-profiles/profiler
+options list
+options set source william Fenech
+options list
+run
+
+back
+options list
+marketplace install reporting/html
+modules load reporting/html
+options list
+
+options set creator Rameshwar
+options set customer william Fenech
+options set FILENAME /home/william_Fenech.html
+options list
+run
+exit

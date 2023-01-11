@@ -1,0 +1,21 @@
+Aim:  Practical on Exploiting Web-based applications
+
+1.Login to Kali Linux machine.
+2.Go to Applications -> dirbuster
+
+link :- http://testphp.vulnweb.com:80/
+
+list info :- directory-list-lowercase-2.3-medium.txt  (207629 words) 
+Case insensitive version of directory-list-2.3-medium.txt
+
+github :- directory-list-2.3-medium.txt
+
+download open hoga save as page
+save
+
+browse-download-directory-list-2.3-medium.txt-open-selectl list
+
+start
+ current number 1 click on change
+
+tree view
