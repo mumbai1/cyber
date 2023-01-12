@@ -1,0 +1,26 @@
+sudo apt install nmap
+
+open nmap
+
+
+
+sudo su
+nmap 1.1.1.1
+
+nmap -sP 10.0.2.15/24
+nmap -sS 10.0.2.15/24
+
+nmap -sS 10.20.30.2/24
+nmap -sSV -O 10.20.30.2/24
+
+nmap -sSV -O 10.0.2.15/24 -oN enumeration.txt
+cat enum.txt
+nmap -sS 10.20.30.2/24 -oN Enumerate.txt
+cat Enumerate.txt
+
+
+
+
+now perform
+ok
+ok

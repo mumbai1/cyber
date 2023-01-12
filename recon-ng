@@ -1,0 +1,60 @@
+sudo apt install recong-ng
+
+marketplace install discovery
+marketplace install recon
+marketplace install import
+marketplace install exploitation
+marketplace install reporting 
+
+workspaces list
+marketplace install recon/domains-contacts/whois_pocs
+modules load recon/domains-contacts/whois_pocs
+options list
+options set SOURCE facebook.com
+options list
+run
+back
+
+marketplace install recon/profiles-profiles/namechk
+modules load recon/profiles-profiles/namechk
+options list
+
+options set SOURCE Bradon Stout
+options list
+run
+back 
+
+marketplace install reporting/html
+modules load reporting/html
+options set CREATOR udcsstudent
+options set CUSTOMER Bradon Stout
+options set FILENAME /home/udcs/brandon_stout.html
+options list 
+run 
+exit 
+
+pwd 
+ll brandon_stout.html
+
+
+
+this are windwos commands
+ping -h 
+nslookup
+tracert
+tracert www.w3schools.com
+ping www.w3schools.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
